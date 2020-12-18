@@ -8,7 +8,7 @@ var roY = 0, roX = -10, xN, yN, play = null;
 
 $('#wrap img').each(function (i) {
    //遍历 $('#wrap img')----改变他们的css样式
-   $(this).css('transform', 'rotateY(' + i * Deg + 'deg) translateZ(350px)')
+   $(this).css('transform', 'rotateY(' + i * Deg + 'deg) translateZ(600px)')
       .attr('ondragstart', 'return false');
    //旋转以及禁止拖拽复制
 });
